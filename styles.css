@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.small-cont{
+    background-color: black;
+    height:4rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+.color-cont{
+    background-color: gray;
+    height: 2rem;
+    width: 15rem;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.color{
+    height: 1rem;
+    width: 2rem;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.button-cont{
+    background-color: gray;
+    height: 2rem;
+    width: 8rem;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-left:800px;
+    font-family: 'Peralta', cursive;
+    position:absolute;
+    right : 10px;
+    top:10px;
+    display: flex;
+}
+
+.big-cont{
+    background-color:rgb(251, 229, 187);
+    height:100vh;
+    width:100vw;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ticket{
+    position: relative;
+    background-color:lightblue;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.ticket-color{
+    height: 8%;
+}
+
+.modal-cont{
+    background-color: lightblue;
+    height: 50vh;
+    width: 40vw;
+    left: 25vw;
+    top: 25vh;
+    display: none;
+    position:absolute;
+    padding: 10px;
+}
+
+.modal-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+textarea{
+    height: 100%;
+    width: 75%;
+    resize: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.mod-color{
+    height: 2rem;
+    width: 5rem;
+    border-left: 20px;
+}
+
+.active{
+    border: 5px solid black;
+}
+
+.lock-unlock{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
